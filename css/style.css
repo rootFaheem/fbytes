@@ -1,0 +1,133 @@
+
+body {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    /* font: 15px/1.5 Arial, Helvetica, Sans-serif; */
+    padding: 0;
+    margin: 0;
+    background-color: #ffffff;
+    padding-bottom: 6rem;
+    min-height: 100%;
+}
+
+.container_head {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #ffffff;
+    color: #35424a;
+    padding-top: 10px;
+    min-height: 30px;
+    border-bottom: #008000 3px solid;
+}
+
+header a {
+    color: #008000 ;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0;
+}
+header nav {
+    float: center;
+    margin: 10px 0 0 150px;
+}
+
+header .highlight, header .current a {
+    color: #008000;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #cccccc;
+    font-weight: bold;
+}
+
+a.active {
+    background-color: #008000;
+    color: #ffffff;
+  }
+
+/*CONTTENT CSSS  */
+
+.container {
+    width: 1150px;
+    margin: auto;
+}
+
+#c1 {
+    width: 600px;
+    float: left;
+    height: 300px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#c2 {
+    width: 350px;
+    float: left;
+    height: 300px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#clear {
+    clear: both;
+}
+a {
+    color: black;
+}
+
+/* FOOTER CSS */
+.footer {
+    /* position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    top: 90%;
+    padding: 0rem;
+    background-color: #efefef;
+    text-align: center; */
+ 
+    /* position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#35424a;
+    color: white;
+    text-align: center;
+    padding: 1erm; */
+/*     
+    clear: both;
+    position: relative;
+    z-index: 10;
+    height: justify;
+    margin-top: justify; */
+
+    /* position:absolute;
+    bottom:0;
+    width:100%;
+    height:60px;   /* Height of the footer */
+    /* background:#6cf; */ */
+ }
